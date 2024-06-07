@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River Chart Example</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="reason.js"></script>
+    <script src="reason2.js"></script>
+    <style>
+        .brush{
+        fill: #777; /* 选区的填充颜色 */
+        fill-opacity: 0.3; /* 选区的透明度 */}
+        .tooltip {
+                position: absolute;
+                text-align: center;
+                padding: 8px;
+                font: 12px sans-serif;
+                background: lightsteelblue;
+                border: 0px;
+                border-radius: 8px;
+                pointer-events: none;
+                opacity: 0;
+            }
+    </style>
+
+</head>
+<body>
+    <svg width="800" height="400"></svg>
+
+    <script src="index1.js"></script>
+    <div id="conclusion">
+        <p>撤稿原因可以人为总结为三类：学术不端，错误，其他。其中历年的撤稿原因结构中学术不端的原因基本占据多数，且最近年份（2018.2023）整体上呈现上升趋势，反映加强学术监督
+            的必要性。
+        </p>
+    </div>
+</body>
+</html>
